@@ -1,0 +1,2 @@
+# Superuser
+ Superuser discord bot.
