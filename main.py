@@ -104,4 +104,5 @@ async def on_command_error(ctx, error):
     if isinstance(error, commands.MissingPermissions):  #   Missing Permissions error
         await ctx.send(f"``{ctx.author.name} is not in the sudoers file. This incident will be reported.``")    #   Publicly announce that that user tried to do something they shouldn't (very naughty)...
 
-bot.run(TOKEN)  #   Run the bot I guess?
+if __name__ == "__main__":
+    bot.run(TOKEN)  #   Run the bot I guess?
